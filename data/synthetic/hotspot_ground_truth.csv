@@ -1,0 +1,13 @@
+﻿scenario_id,ward_numbers,primary_categories,pattern,expected_detection,description
+H01,"12,13",Garbage Collection;Drainage;Waterlogging,persistent_connected,yes,Persistent multi-category cluster with garbage/drainage/waterlogging linkage.
+H02,"24,25,26",Pothole;Damaged Road,persistent_road,yes,Persistent road/pothole cluster.
+H03,"33,34",Garbage Collection;Illegal Dumping;Drainage,persistent_waste,yes,Persistent waste/illegal dumping cluster.
+H04,"47,48",Water Supply;Water Leakage,persistent_water,yes,Persistent water-supply/leakage cluster.
+H05,"55,56,57",Streetlight;Damaged Sidewalk,persistent_safety,yes,Persistent streetlight/sidewalk safety cluster.
+H06,"71,72",Waterlogging;Drainage,monsoon,yes,Seasonal drainage/waterlogging hotspot concentrated in monsoon months.
+H07,"3,4",Garbage Collection,escalating,yes,Complaint frequency and severity increase over time.
+H08,61,Pothole,high_severity_low_frequency,yes,Few complaints but unusually high severity.
+H09,"18,19,20",Garbage Collection,high_frequency_low_severity,yes,High volume but mostly low severity; should not automatically rank first.
+H10,"39,40",Drainage;Waterlogging;Damaged Road,connected_chain,yes,Spatially and temporally linked drainage → waterlogging → road damage pattern.
+H11,"76,77",Illegal Dumping;Garbage Collection,persistent_waste,yes,Persistent waste/illegal dumping cluster.
+H12,"7,8,9",Streetlight,persistent_safety,yes,Persistent streetlight/sidewalk safety cluster.

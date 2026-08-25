@@ -1,0 +1,2 @@
+class HotspotService:
+    pass
