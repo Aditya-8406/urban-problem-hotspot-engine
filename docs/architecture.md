@@ -14,9 +14,9 @@ Complaints
 
 ## Layer responsibilities
 
-- `frontend/`: presentation.
-- `backend/`: API and application orchestration.
-- `ml/`: analytical engine.
-- `data/`: datasets.
-- `geo/`: geographic reference assets.
-- `database/`: persistence and spatial queries.
+* `backend/`: API and application orchestration.
+* `ml/`: analytical engine.
+* `data/`: datasets.
+* `geo/`: geographic reference assets.
+* `database/`: persistence and spatial queries.
+

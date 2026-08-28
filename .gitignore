@@ -12,3 +12,6 @@ build/
 *.log
 data/osm/*.json
 data/processed/*.csv
+# ML generated artifacts
+ml/prediction/models/*.joblib
+ml/prediction/models/*.csv

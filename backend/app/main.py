@@ -9,11 +9,12 @@ from app.api.wards import router as wards_router
 from app.api.complaints import router as complaints_router
 from app.api.urban import router as urban_router
 from app.api.roads import router as roads_router
+from app.api.predictions import router as predictions_router
 
 
 app = FastAPI(
     title="Urban Problem Hotspot Engine",
-    version="0.2.0",
+    version="0.3.0",
 )
 
 
@@ -33,9 +34,15 @@ app.add_middleware(
 )
 
 
+# ============================================================
+# HEALTH CHECK
+# ============================================================
+
 @app.get("/health")
 def health():
-    return {"status": "ok"}
+    return {
+        "status": "ok"
+    }
 
 
 # ============================================================
@@ -50,3 +57,5 @@ app.include_router(wards_router)
 app.include_router(complaints_router)
 app.include_router(urban_router)
 app.include_router(roads_router)
+
+app.include_router(predictions_router)

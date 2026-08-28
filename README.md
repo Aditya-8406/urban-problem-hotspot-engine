@@ -12,11 +12,11 @@ The initial implementation targets Jabalpur using a 79-ward geographic base. Syn
 
 ## Repository structure
 
-- `frontend/` — React dashboard
-- `backend/` — API, services, database models and schemas
-- `ml/` — analytics/ML engine
-- `data/` — raw, processed and synthetic datasets
-- `geo/` — ward boundaries and ward reference data
-- `database/` — SQL schema, seed data and analytical queries
-- `tests/` — unit and integration tests
-- `docs/` — architecture and algorithm documentation
+* `backend/` — API, services, database models and schemas
+* `ml/` — analytics/ML engine
+* `data/` — raw, processed and synthetic datasets
+* `geo/` — ward boundaries and ward reference data
+* `database/` — SQL schema, seed data and analytical queries
+* `tests/` — unit and integration tests
+* `docs/` — architecture and algorithm documentation
+

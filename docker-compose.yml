@@ -16,6 +16,8 @@ services:
       DATABASE_URL: postgresql://postgres:postgres@db:5432/urban_hotspot
     ports:
       - "8000:8000"
+    volumes:
+      - ./ml:/app/ml
     depends_on:
       - db
 
