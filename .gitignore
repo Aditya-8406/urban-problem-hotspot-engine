@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.env
+node_modules/
+dist/
+build/
+.pytest_cache/
+.coverage
+.DS_Store
+*.log
+data/osm/*.json
+data/processed/*.csv
+# ML generated artifacts
+ml/prediction/models/*.joblib
+ml/prediction/models/*.csv
