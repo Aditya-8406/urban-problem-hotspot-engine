@@ -1,0 +1,81 @@
+﻿source_cluster,target_cluster,source_problem,target_problem,distance_m,temporal_delta_days,overlap_days,directional_score,relation_type,source_wards,target_wards
+0,46,Damaged Road,Pothole,115.4,34,493,0.704,directional_association,"22,24,25","22,25"
+46,0,Pothole,Damaged Road,115.4,-34,493,0.791,directional_association,"22,25","22,24,25"
+0,47,Damaged Road,Pothole,148.0,714,35,0.677,directional_association,"22,24,25",25
+47,0,Pothole,Damaged Road,148.0,-714,35,0.764,directional_association,25,"22,24,25"
+48,1,Pothole,Damaged Road,246.8,3,915,0.682,directional_association,"24,26","24,26,40"
+2,81,Damaged Road,Waterlogging,111.4,325,217,0.707,directional_association,39,39
+81,2,Waterlogging,Damaged Road,111.4,-325,217,0.82,directional_association,39,39
+3,56,Damaged Sidewalk,Streetlight,82.0,54,141,0.744,directional_association,57,57
+56,3,Streetlight,Damaged Sidewalk,82.0,-54,141,0.769,directional_association,57,57
+3,57,Damaged Sidewalk,Streetlight,81.5,400,25,0.745,directional_association,57,57
+57,3,Streetlight,Damaged Sidewalk,81.5,-400,25,0.77,directional_association,57,57
+4,51,Damaged Sidewalk,Streetlight,115.3,-4,199,0.716,directional_association,56,56
+51,4,Streetlight,Damaged Sidewalk,115.3,4,199,0.741,directional_association,56,56
+5,53,Damaged Sidewalk,Streetlight,118.0,138,54,0.714,directional_association,"24,55",55
+53,5,Streetlight,Damaged Sidewalk,118.0,-138,54,0.739,directional_association,55,"24,55"
+6,53,Damaged Sidewalk,Streetlight,99.4,-208,14,0.73,directional_association,55,55
+53,6,Streetlight,Damaged Sidewalk,99.4,208,14,0.755,directional_association,55,55
+6,54,Damaged Sidewalk,Streetlight,73.4,144,99,0.751,directional_association,55,55
+54,6,Streetlight,Damaged Sidewalk,73.4,-144,99,0.776,directional_association,55,55
+7,20,Drainage,Garbage Collection,46.0,67,883,0.762,directional_association,"10,12,13,14","12,13,14"
+20,7,Garbage Collection,Drainage,46.0,-67,883,0.912,directional_association,"12,13,14","10,12,13,14"
+7,74,Drainage,Waterlogging,130.0,29,906,0.867,directional_association,"10,12,13,14","12,13"
+74,7,Waterlogging,Drainage,130.0,-29,906,0.692,directional_association,"12,13","10,12,13,14"
+8,24,Drainage,Garbage Collection,133.4,70,33,0.689,directional_association,34,"33,34"
+24,8,Garbage Collection,Drainage,133.4,-70,33,0.839,directional_association,"33,34",34
+25,8,Garbage Collection,Drainage,84.6,-268,0,0.63,directional_association,34,34
+8,37,Drainage,Illegal Dumping,154.0,95,8,0.672,directional_association,34,34
+37,8,Illegal Dumping,Drainage,154.0,-95,8,0.672,directional_association,34,34
+9,25,Drainage,Garbage Collection,80.5,-79,247,0.733,directional_association,"33,34",34
+25,9,Garbage Collection,Drainage,80.5,79,247,0.883,directional_association,34,"33,34"
+9,38,Drainage,Illegal Dumping,231.3,-53,329,0.607,directional_association,"33,34",34
+38,9,Illegal Dumping,Drainage,231.3,53,329,0.607,directional_association,34,"33,34"
+24,10,Garbage Collection,Drainage,101.0,706,0,0.616,directional_association,"33,34",34
+10,26,Drainage,Garbage Collection,164.7,-68,113,0.663,directional_association,34,34
+26,10,Garbage Collection,Drainage,164.7,68,113,0.813,directional_association,34,34
+10,38,Drainage,Illegal Dumping,80.9,-482,14,0.733,directional_association,34,34
+38,10,Illegal Dumping,Drainage,80.9,482,14,0.733,directional_association,34,34
+21,11,Garbage Collection,Drainage,242.1,-34,44,0.748,directional_association,33,33
+13,78,Drainage,Waterlogging,87.5,355,0,0.652,directional_association,71,71
+15,75,Drainage,Waterlogging,106.6,-37,78,0.886,directional_association,72,72
+75,15,Waterlogging,Drainage,106.6,37,78,0.711,directional_association,72,72
+15,76,Drainage,Waterlogging,143.1,345,0,0.606,directional_association,72,72
+16,75,Drainage,Waterlogging,44.3,-382,0,0.688,directional_association,72,72
+16,76,Drainage,Waterlogging,230.7,0,64,0.783,directional_association,72,72
+76,16,Waterlogging,Drainage,230.7,0,64,0.608,directional_association,72,72
+17,75,Drainage,Waterlogging,124.2,-749,0,0.621,directional_association,72,72
+17,77,Drainage,Waterlogging,312.6,-2,90,0.714,directional_association,72,72
+18,79,Drainage,Waterlogging,118.8,-57,184,0.876,directional_association,"38,40,59","26,39,40"
+79,18,Waterlogging,Drainage,118.8,57,184,0.701,directional_association,"26,39,40","38,40,59"
+18,80,Drainage,Waterlogging,83.8,300,145,0.905,directional_association,"38,40,59","39,40"
+80,18,Waterlogging,Drainage,83.8,-300,145,0.73,directional_association,"39,40","38,40,59"
+19,80,Drainage,Waterlogging,71.8,-363,3,0.772,directional_association,"26,40","39,40"
+20,74,Garbage Collection,Waterlogging,89.2,-38,868,0.726,directional_association,"12,13,14","12,13"
+74,20,Waterlogging,Garbage Collection,89.2,38,868,0.726,directional_association,"12,13","12,13,14"
+22,39,Garbage Collection,Illegal Dumping,228.8,-78,109,0.609,directional_association,"33,34",33
+39,22,Illegal Dumping,Garbage Collection,228.8,78,109,0.697,directional_association,33,"33,34"
+22,40,Garbage Collection,Illegal Dumping,42.0,219,43,0.765,directional_association,"33,34",33
+40,22,Illegal Dumping,Garbage Collection,42.0,-219,43,0.852,directional_association,33,"33,34"
+23,40,Garbage Collection,Illegal Dumping,117.3,-144,367,0.702,directional_association,33,33
+40,23,Illegal Dumping,Garbage Collection,117.3,144,367,0.79,directional_association,33,33
+24,37,Garbage Collection,Illegal Dumping,189.5,25,43,0.642,directional_association,"33,34",34
+37,24,Illegal Dumping,Garbage Collection,189.5,-25,43,0.73,directional_association,34,"33,34"
+25,38,Garbage Collection,Illegal Dumping,171.7,26,300,0.657,directional_association,34,34
+38,25,Illegal Dumping,Garbage Collection,171.7,-26,300,0.744,directional_association,34,34
+38,26,Illegal Dumping,Garbage Collection,241.5,414,82,0.686,directional_association,34,34
+36,44,Garbage Collection,Illegal Dumping,93.2,21,27,0.722,directional_association,76,76
+44,36,Illegal Dumping,Garbage Collection,93.2,-21,27,0.81,directional_association,76,76
+36,45,Garbage Collection,Illegal Dumping,49.6,280,96,0.759,directional_association,76,76
+45,36,Illegal Dumping,Garbage Collection,49.6,-280,96,0.846,directional_association,76,76
+65,72,Water Leakage,Water Supply,120.6,-11,66,0.762,directional_association,"47,48",48
+72,65,Water Supply,Water Leakage,120.6,11,66,0.787,directional_association,48,"47,48"
+65,73,Water Leakage,Water Supply,156.9,347,33,0.732,directional_association,"47,48",48
+73,65,Water Supply,Water Leakage,156.9,-347,33,0.757,directional_association,48,"47,48"
+66,73,Water Leakage,Water Supply,96.2,-123,129,0.782,directional_association,48,48
+73,66,Water Supply,Water Leakage,96.2,123,129,0.807,directional_association,48,48
+71,67,Water Supply,Water Leakage,32.9,-633,0,0.61,directional_association,47,47
+68,70,Water Leakage,Water Supply,36.4,-170,126,0.832,directional_association,47,47
+70,68,Water Supply,Water Leakage,36.4,170,126,0.857,directional_association,47,47
+69,71,Water Leakage,Water Supply,106.7,-53,135,0.774,directional_association,47,47
+71,69,Water Supply,Water Leakage,106.7,53,135,0.799,directional_association,47,47
